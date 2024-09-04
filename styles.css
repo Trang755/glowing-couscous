@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FCE6D0;
+    color: #886953;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #9D908E;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 50px;
+    text-align: center;
+}
+
+section#about {
+    background-color: #DFC8C6;
+}
+
+section#blog {
+    background-color: #EBE5E1;
+}
+
+section#shop {
+    background-color: #DFAD83;
+}
+
+section#videos {
+    background-color: #9D908E;
+    color: #FFFFFF;
+}
+
+footer {
+    background-color: #886953;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
